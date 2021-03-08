@@ -7,6 +7,6 @@ go instal swap_biggest.go
 ```
 ### usage:
 ```
-# swap with widest
-bindsym $mod+g exec --no-startup-id "swap_biggest"
+# swap with widest ( -b to swap back if trigger one more time)
+bindsym $mod+g exec --no-startup-id "swap_biggest -b"
 ```
